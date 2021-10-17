@@ -1,5 +1,5 @@
 const readline = require('readline')
-const { invertBrightness, RGB_REGEX } = require('./lib/invertBrightness')
+const { invertLightness, RGB_REGEX } = require('./lib/invertLightness')
 
 const EXTRACT_RGB_REGEX = new RegExp(`(^.*)${RGB_REGEX.source}(.*$)`)
 
@@ -18,7 +18,7 @@ rl.on('line', (line) => {
     return
   }
 
-  const invertedColor = invertBrightness(`${r}${g}${b}`)
+  const invertedColor = invertLightness(`${r}${g}${b}`)
   const modifiedLine = `${start}${invertedColor}${end}`
   output.push(modifiedLine)
 })
