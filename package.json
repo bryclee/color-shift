@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "color-lib": "github:bryclee/color-lib"
+    "color-lib": "github:bryclee/color-lib",
+    "debug": "^4.3.2"
   }
 }

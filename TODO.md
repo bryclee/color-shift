@@ -1,0 +1,6 @@
+- [x] color contrast?
+  - [x] invert over 0.23 instead of half-way point
+  - 0.23 / 0.05 (darkest black) = 4.6
+  - 1.05 (white) / 0.23 = 4.56
+  - more relative comparisons?
+- test light -> dark
